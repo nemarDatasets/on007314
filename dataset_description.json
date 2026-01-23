@@ -1,0 +1,35 @@
+{
+  "Name": "tACS for Patients with Post-Stroke Anomia",
+  "BIDSVersion": "1.8.0",
+  "License": "CC0",
+  "Authors": [
+    "Maria Martzoukou",
+    "Nefeli K. Dimitriou",
+    "Binbin Xu",
+    "Malo Renaud-d’Ambra",
+    "Anastasia Nousia",
+    "Alexandre Aksenov",
+    "Anne Beuter",
+    "Grigorios Nasios"
+  ],
+  "Acknowledgements": "We thank the participants and their caregivers for their commitment to this study.",
+  "HowToAcknowledge": "Please cite the associated publication: Martzoukou et al., 'tACS for patients with Post-Stroke Anomia: Preliminary Data on Picture Naming Performance'.",
+  "Funding": [
+    "No formal funding reported."
+  ],
+  "EthicsApprovals": [
+    "University of Ioannina Medical School Ethics Committee, Approval Number 49625"
+  ],
+  "DatasetType": "raw",
+  "GeneratedBy": [
+    {
+      "Name": "EEGLAB",
+      "Version": "2023",
+      "Description": "EEG preprocessing and BIDS conversion"
+    }
+  ],
+  "ReferencesAndLinks": [
+    "https://www.neuroelectrics.com/products/starstim/"
+  ],
+  "SourceDatasets": []
+}
