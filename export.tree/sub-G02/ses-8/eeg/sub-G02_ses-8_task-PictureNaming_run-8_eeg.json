@@ -1,0 +1,9 @@
+{
+  "PowerLineFrequency": 50,
+  "TaskName": "PictureNaming",
+  "EEGReference": "common",
+  "RecordingType": "continuous",
+  "RecordingDuration": 1251.348,
+  "SamplingFrequency": 500,
+  "SoftwareFilters": "n/a"
+}
