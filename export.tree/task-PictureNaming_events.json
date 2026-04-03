@@ -1,0 +1,22 @@
+{
+  "onset": {
+    "Description": "Time in seconds from the beginning of the recording to the start of the event."
+  },
+  "duration": {
+    "Description": "Duration of the event in seconds."
+  },
+  "trial_type": {
+    "Description": "Type of trial (e.g., 'stim', 'response', 'quality', 'motivation')",
+    "Levels": {
+      "stim": "Standard naming stimulus",
+      "quality": "Repetition item for consistency check",
+      "motivation": "Individually important stimulus chosen by patient"
+    }
+  },
+  "stimulus": {
+    "Description": "Identifier of the stimulus presented (e.g., image name or word)."
+  },
+  "response_time": {
+    "Description": "Time from stimulus onset to participant's vocal response, in seconds."
+  }
+}
