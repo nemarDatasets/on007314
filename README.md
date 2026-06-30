@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007314-blue)](https://doi.org/10.82901/nemar.on007314)
+
 **Title:** Transcranial Alternating Current Stimulation (tACS) for Patients with Post-Stroke Anomia: Preliminary Data on Picture Naming Performance
 
 **Dataset Description:**\
