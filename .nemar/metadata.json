@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "tACS for Patients with Post-Stroke Anomia",
+  "description": "This dataset comprises EEG recordings from two patients with chronic post-stroke anomia who underwent an 8-week individualized transcranial alternating current stimulation (tACS) intervention. Using a single-case experimental design with alternating stimulation and non-stimulation phases, the study investigated whether personalized tACS guided by individual EEG profiles could enhance naming abilities through cortical entrainment. EEG data were collected during picture naming tasks at weekly intervals, with behavioral and electrophysiological measures assessed across 24 naming sessions and 6 EEG recording sessions per participant.",
+  "methods_description": "EEG recordings were acquired using a Starstim-32 system during picture naming tasks performed every two weeks over an 8-week intervention period, with follow-up sessions at weeks 12 and 20. Transcranial alternating current stimulation was applied during alternating weeks with frequency and montage personalized based on initial EEG profiles. Data were preprocessed using EEGLAB (version 2023) and converted to BIDS format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,12 +24,30 @@
       "orcid": "0000-0001-7495-6863"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007314.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "transcranial alternating current stimulation"
+    },
+    {
+      "term": "post-stroke anomia"
+    },
+    {
+      "term": "neuromodulation"
+    },
+    {
+      "term": "cortical entrainment"
+    },
+    {
+      "term": "aphasia"
+    },
+    {
+      "term": "picture naming"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007314",
       "identifier_type": "URL",
@@ -42,6 +62,11 @@
       "identifier": "10.1371/journal.pone.0342191",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007314.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -50,50 +75,20 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "1.2 GB (29 files)"
   ],
   "formats": [
     ".fdt",
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from two patients with chronic post-stroke anomia who underwent an 8-week individualized transcranial alternating current stimulation (tACS) intervention. Using a single-case experimental design with alternating stimulation and non-stimulation phases, the study investigated whether personalized tACS guided by individual EEG profiles could enhance naming abilities through cortical entrainment. EEG data were collected during picture naming tasks at multiple timepoints, with behavioral and electrophysiological measures assessed to determine intervention efficacy and sustainability.",
-  "methods_description": "EEG recordings were acquired using Starstim-32 during picture naming tasks across 7 timepoints (weeks 1, 2, 4, 6, 8, 12, and 20). tACS was applied during alternating 2-week phases with personalized frequency and montage based on baseline EEG profiles. A single-case experimental design (ABAB type) was employed with 24 naming sessions and 6 EEG recording sessions per participant. Data were preprocessed using EEGLAB and formatted according to BIDS standards.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "transcranial alternating current stimulation"
-    },
-    {
-      "term": "post-stroke anomia"
-    },
-    {
-      "term": "aphasia"
-    },
-    {
-      "term": "neuromodulation"
-    },
-    {
-      "term": "picture naming"
-    },
-    {
-      "term": "cortical entrainment"
-    },
-    {
-      "term": "single-case experimental design"
-    },
-    {
-      "term": "Starstim-32"
-    }
-  ],
-  "source_hash": "9187edbac094cd3ebd037483d84e8887b152ac337adb29f4604bd2ea667a39a4"
+  "source_hash": "4ad92c7768fabe40e7ceabb1d35ad16aaf3c2eb6dae6771f73e6a4eb95b12574"
 }
