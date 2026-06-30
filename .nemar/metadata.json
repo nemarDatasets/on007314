@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007314",
+  "source": "openneuro",
+  "source_id": "ds007314",
+  "title": "tACS for Patients with Post-Stroke Anomia",
+  "authors": {
+    "Maria Martzoukou": {},
+    "Nefeli K. Dimitriou": {},
+    "Binbin Xu": {},
+    "Malo Renaud-d’Ambra": {},
+    "Anastasia Nousia": {},
+    "Alexandre Aksenov": {},
+    "Anne Beuter": {},
+    "Grigorios Nasios": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007314.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "No formal funding reported."
+    }
+  ],
+  "acknowledgements": "We thank the participants and their caregivers for their commitment to this study."
+}
