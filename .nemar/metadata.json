@@ -1,40 +1,99 @@
 {
   "version": "2.0",
-  "dataset_id": "on007314",
-  "source": "openneuro",
-  "source_id": "ds007314",
+  "pipeline_stage": "enriched",
   "title": "tACS for Patients with Post-Stroke Anomia",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Maria Martzoukou": {},
-    "Nefeli K. Dimitriou": {},
-    "Binbin Xu": {},
+    "Maria Martzoukou": {
+      "orcid": "0000-0001-6536-7506"
+    },
+    "Nefeli K. Dimitriou": {
+      "orcid": "0000-0002-5770-4303"
+    },
+    "Binbin Xu": {
+      "orcid": "0000-0002-0822-5250"
+    },
     "Malo Renaud-d’Ambra": {},
     "Anastasia Nousia": {},
     "Alexandre Aksenov": {},
     "Anne Beuter": {},
-    "Grigorios Nasios": {}
+    "Grigorios Nasios": {
+      "orcid": "0000-0001-7495-6863"
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007314.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007314",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007314",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1371/journal.pone.0342191",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "No formal funding reported."
     }
   ],
-  "acknowledgements": "We thank the participants and their caregivers for their commitment to this study."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from two patients with chronic post-stroke anomia who underwent an 8-week individualized transcranial alternating current stimulation (tACS) intervention. Using a single-case experimental design with alternating stimulation and non-stimulation phases, the study investigated whether personalized tACS guided by individual EEG profiles could enhance naming abilities through cortical entrainment. EEG data were collected during picture naming tasks at multiple timepoints, with behavioral and electrophysiological measures assessed to determine intervention efficacy and sustainability.",
+  "methods_description": "EEG recordings were acquired using Starstim-32 during picture naming tasks across 7 timepoints (weeks 1, 2, 4, 6, 8, 12, and 20). tACS was applied during alternating 2-week phases with personalized frequency and montage based on baseline EEG profiles. A single-case experimental design (ABAB type) was employed with 24 naming sessions and 6 EEG recording sessions per participant. Data were preprocessed using EEGLAB and formatted according to BIDS standards.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "transcranial alternating current stimulation"
+    },
+    {
+      "term": "post-stroke anomia"
+    },
+    {
+      "term": "aphasia"
+    },
+    {
+      "term": "neuromodulation"
+    },
+    {
+      "term": "picture naming"
+    },
+    {
+      "term": "cortical entrainment"
+    },
+    {
+      "term": "single-case experimental design"
+    },
+    {
+      "term": "Starstim-32"
+    }
+  ],
+  "source_hash": "9187edbac094cd3ebd037483d84e8887b152ac337adb29f4604bd2ea667a39a4"
 }
