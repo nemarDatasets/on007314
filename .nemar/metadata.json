@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "tACS for Patients with Post-Stroke Anomia",
-  "description": "This dataset comprises EEG recordings from two patients with chronic post-stroke anomia who underwent an 8-week individualized transcranial alternating current stimulation (tACS) intervention. Using a single-case experimental design with alternating stimulation and non-stimulation phases, the study investigated whether personalized tACS guided by individual EEG profiles could enhance naming abilities through cortical entrainment. EEG data were collected during picture naming tasks at weekly intervals, with behavioral and electrophysiological measures assessed across 24 naming sessions and 6 EEG recording sessions per participant.",
-  "methods_description": "EEG recordings were acquired using a Starstim-32 system during picture naming tasks performed every two weeks over an 8-week intervention period, with follow-up sessions at weeks 12 and 20. Transcranial alternating current stimulation was applied during alternating weeks with frequency and montage personalized based on initial EEG profiles. Data were preprocessed using EEGLAB (version 2023) and converted to BIDS format.",
+  "description": "This dataset comprises EEG recordings from two individuals with chronic post-stroke anomia who underwent an 8-week individualized transcranial alternating current stimulation (tACS) intervention. Using a single-case ABAB experimental design, EEG was recorded during picture naming tasks across alternating stimulation and non-stimulation phases and at follow-up sessions. The study aims to determine whether tACS, guided by individual EEG profiles, improves naming accuracy and latency and whether these effects persist after intervention.",
+  "methods_description": "EEG was recorded using a Starstim-32 system during picture naming tasks across multiple sessions (weeks 1, 2, 4, 6, 8, 12, and 20). tACS was applied during alternating two-week phases with frequency and montage personalized based on each participant's initial EEG profile. Data were preprocessed in EEGLAB and organized into BIDS format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -32,19 +32,23 @@
       "term": "transcranial alternating current stimulation"
     },
     {
-      "term": "post-stroke anomia"
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
     },
     {
-      "term": "neuromodulation"
+      "term": "Aphasia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001037"
     },
     {
-      "term": "cortical entrainment"
-    },
-    {
-      "term": "aphasia"
+      "term": "anomia"
     },
     {
       "term": "picture naming"
+    },
+    {
+      "term": "single-case experimental design"
     }
   ],
   "related_identifiers": [
