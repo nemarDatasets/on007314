@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "tACS for Patients with Post-Stroke Anomia",
-  "description": "This dataset comprises EEG recordings from two individuals with chronic post-stroke anomia who underwent an 8-week individualized transcranial alternating current stimulation (tACS) intervention. Using a single-case ABAB experimental design, EEG was recorded during picture naming tasks across alternating stimulation and non-stimulation phases and at follow-up sessions. The study aims to determine whether tACS, guided by individual EEG profiles, improves naming accuracy and latency and whether these effects persist after intervention.",
-  "methods_description": "EEG was recorded using a Starstim-32 system during picture naming tasks across multiple sessions (weeks 1, 2, 4, 6, 8, 12, and 20). tACS was applied during alternating two-week phases with frequency and montage personalized based on each participant's initial EEG profile. Data were preprocessed in EEGLAB and organized into BIDS format.",
+  "description": "EEG recordings from two chronic post-stroke anomia patients (one left-hemisphere and one right-hemisphere lesion) who took part in an 8-week individualized transcranial alternating current stimulation (tACS) intervention. Stimulation and non-stimulation phases alternated every two weeks in a single-case ABAB design. EEG was recorded during a picture naming task at intervention weeks and follow-ups to assess effects of tACS on naming accuracy and latency.",
+  "methods_description": "Single-case experimental design (ABAB) with 24 naming sessions and 6 EEG recording sessions per participant across weeks 1, 2, 4, 6, 8 and follow-ups at weeks 12 and 20. tACS frequency and montage were personalized from initial EEG. EEG was recorded with a Starstim-32 system during a picture naming task using standardized stimuli, then processed in EEGLAB and converted to BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,12 +29,10 @@
       "term": "EEG"
     },
     {
-      "term": "transcranial alternating current stimulation"
+      "term": "tACS"
     },
     {
-      "term": "Stroke",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+      "term": "Transcranial Direct Current Stimulation"
     },
     {
       "term": "Aphasia",
@@ -42,13 +40,15 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D001037"
     },
     {
-      "term": "anomia"
+      "term": "Anomia"
+    },
+    {
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
     },
     {
       "term": "picture naming"
-    },
-    {
-      "term": "single-case experimental design"
     }
   ],
   "related_identifiers": [
@@ -84,7 +84,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.2 GB (29 files)"
+    "1.09 GB (29 files)"
   ],
   "formats": [
     ".fdt",
